@@ -10,11 +10,14 @@
             integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
             crossorigin="anonymous"
         />
-        <title>Hello, world!</title>
+        <title>BTS</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f87ea3ee3e0a740"></script>
-
+        <script
+            type="text/javascript"
+            src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f87ea3ee3e0a740"
+        ></script>
     </head>
 
     <body>
@@ -37,14 +40,8 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
-                            >Disabled</a
+                            >Perbarui Nanti</a
                         >
                     </li>
                 </ul>
@@ -102,10 +99,9 @@
                 <p class="result-message"></p>
                 <div id="label-container" class="d-flex flex-column justify-content-around"></div>
                 <div class="pt-3 image-title-wrap">
-                    
-                <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                <div class="addthis_inline_share_toolbox"></div>
-            
+                    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                    <div class="addthis_inline_share_toolbox"></div>
+
                     <button
                         type="button p-2"
                         class="try-again-btn"
@@ -118,7 +114,11 @@
         </div>
         <footer class="footer pt-5 container d-flex justify-content-center">
             <div>
-                <p>&copy; CHAR.S 2020. All Rights Reserved.<br> Aplikasi ini ditujukan untuk kemeriahan dan kesenangan, dan tidak memiliki tanggung jawab hukum. </p>
+                <p>
+                    &copy; CHAR.S 2020. All Rights Reserved.<br />
+                    Aplikasi ini ditujukan untuk kemeriahan dan kesenangan, dan tidak memiliki
+                    tanggung jawab hukum.
+                </p>
             </div>
         </footer>
         <div id="webcam-container"></div>
@@ -221,31 +221,38 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
                 switch (prediction[0].className) {
                     case 'RM':
                         resultTitle = 'Pacar RM♡';
-                        resultExplain = 'Selamat! Anda terlihat paling baik dengan RM yang cerdas tapi sedikit sok! Apa aku harus menerima lelucon itu dengan baik agar bisa bersama RM ?! Perhatikan bahwa tipe ideal RM adalah tinggi 164 hingga 170 cm.';
+                        resultExplain =
+                            'Selamat! Anda terlihat paling baik dengan RM yang cerdas tapi sedikit sok! Apa aku harus menerima lelucon itu dengan baik agar bisa bersama RM ?! Perhatikan bahwa tipe ideal RM adalah tinggi 164 hingga 170 cm.';
                         break;
                     case 'Jin':
                         resultTitle = 'Pacar Jin♡';
-                        resultExplain = 'Selamat! Kamu terlihat paling baik dengan Jin yang imut! Jin bilang dia sangat suka makan, jadi alangkah baiknya pergi ke restoran yang enak bersama. Sekadar informasi, tipe ideal Jin memiliki tinggi 164 hingga 170 sentimeter.';
+                        resultExplain =
+                            'Selamat! Kamu terlihat paling baik dengan Jin yang imut! Jin bilang dia sangat suka makan, jadi alangkah baiknya pergi ke restoran yang enak bersama. Sekadar informasi, tipe ideal Jin memiliki tinggi 164 hingga 170 sentimeter.';
                         break;
                     case 'Sugar':
                         resultTitle = 'Pacar Sugar♡';
-                        resultExplain = 'Selamat! Anda terlihat paling baik dengan Sugar, yang memiliki kepribadian yang dingin tapi hangat! Untuk bisa bersama Sugar, saya rasa Anda perlu membaca ekspresi dan ketulusan lainnya dengan baik. Sekadar informasi, tipe ideal Sugar adalah tinggi 155 hingga 158 sentimeter.';
+                        resultExplain =
+                            'Selamat! Anda terlihat paling baik dengan Sugar, yang memiliki kepribadian yang dingin tapi hangat! Untuk bisa bersama Sugar, saya rasa Anda perlu membaca ekspresi dan ketulusan lainnya dengan baik. Sekadar informasi, tipe ideal Sugar adalah tinggi 155 hingga 158 sentimeter.';
                         break;
                     case 'J-HOPE':
                         resultTitle = 'Pacar J-HOPE♡';
-                        resultExplain = 'Selamat! Anda cerdas dan menyenangkan, dan Anda paling cocok dengan J-HOPE yang memimpin orang dengan baik! Untuk bisa bersama J-HOPE, Anda harus bisa bersenang-senang dengannya! Perhatikan bahwa tipe ideal J-HOPE adalah setinggi 158-164 cm.';
+                        resultExplain =
+                            'Selamat! Anda cerdas dan menyenangkan, dan Anda paling cocok dengan J-HOPE yang memimpin orang dengan baik! Untuk bisa bersama J-HOPE, Anda harus bisa bersenang-senang dengannya! Perhatikan bahwa tipe ideal J-HOPE adalah setinggi 158-164 cm.';
                         break;
                     case 'Jimin':
                         resultTitle = 'Pacar Jimin♡';
-                        resultExplain = 'Selamat! Anda terlihat paling baik dengan Jimin, yang merawat orang-orang di sekitar Anda dengan baik! Bukankah orang yang menawan dan bergantung padanya akan cocok dengan Jimin ?! Sekadar informasi, tipe ideal Jimin adalah tinggi 158-161 cm.';
+                        resultExplain =
+                            'Selamat! Anda terlihat paling baik dengan Jimin, yang merawat orang-orang di sekitar Anda dengan baik! Bukankah orang yang menawan dan bergantung padanya akan cocok dengan Jimin ?! Sekadar informasi, tipe ideal Jimin adalah tinggi 158-161 cm.';
                         break;
                     case 'V':
                         resultTitle = 'Pacar V♡';
-                        resultExplain = 'Selamat! Anda adalah pasangan terbaik untuk seorang V dengan pesona yang salah! Jika Anda ingin bersama V, Anda harus menerima pesonanya yang liar. Perhatikan bahwa tipe ideal V adalah dengan tinggi 161-164 cm.';
+                        resultExplain =
+                            'Selamat! Anda adalah pasangan terbaik untuk seorang V dengan pesona yang salah! Jika Anda ingin bersama V, Anda harus menerima pesonanya yang liar. Perhatikan bahwa tipe ideal V adalah dengan tinggi 161-164 cm.';
                         break;
                     case 'JungKook':
                         resultTitle = 'Pacar JungKook♡';
-                        resultExplain = 'Selamat! Anda terlihat terbaik dengan JungKook, yang kuat dan baik dalam segala hal! Saya pikir perlu ada pesona seksi bersama JungKook. Sekadar informasi, tipe ideal JungKook adalah tinggi 170 sentimeter.';
+                        resultExplain =
+                            'Selamat! Anda terlihat terbaik dengan JungKook, yang kuat dan baik dalam segala hal! Saya pikir perlu ada pesona seksi bersama JungKook. Sekadar informasi, tipe ideal JungKook adalah tinggi 170 sentimeter.';
                         break;
                     default:
                         resultTitle = 'tidak diketahui :(';
