@@ -260,7 +260,7 @@ body {
   border-radius: 10px;
   background-color: rgba(195, 140, 102, 1);
 }
-.JungKooK-box {
+.JungKook-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -269,7 +269,7 @@ body {
   width: 100%;
   background-color: rgba(49, 132, 155, 0.2);
 }
-.JungKooK-bar {
+.JungKook-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -357,10 +357,10 @@ body {
     color: #9b6b43;
     font-size: 1.2rem;
 }
-.JungKooK-animal-title {
+.JungKook-animal-title {
     color: #31849b;
 }
-.JungKooK-animal-celeb {
+.JungKook-animal-celeb {
     color: #31849b;
     font-size: 1.2rem;
 }
