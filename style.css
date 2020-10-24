@@ -1,8 +1,8 @@
 body {
-  font-family: "Arial", sans-serif;
-  background-color: #ffffff;
-  box-sizing: border-box;
-  color: #35465d;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    color: #35465d;
 }
 .file-upload {
     padding: 15% 3%;
@@ -12,51 +12,46 @@ body {
     background-color: #f6f7fa;
 }
 .file-upload-btn {
-  width: 100%;
-  margin: 0;
-  color: #fff;
-  background: #1FB264;
-  border: none;
-  padding: 10px;
-  border-radius: 4px;
-  border-bottom: 4px solid #15824B;
-  transition: all .2s ease;
-  outline: none;
-  text-transform: uppercase;
-  font-weight: 700;
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #1fb264;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #15824b;
+    transition: all 0.2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
 }
-
 .file-upload-btn:hover {
-  background: #1AA059;
-  color: #ffffff;
-  transition: all .2s ease;
-  cursor: pointer;
+    background: #1aa059;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
 }
-
 .file-upload-btn:active {
-  border: 0;
-  transition: all .2s ease;
+    border: 0;
+    transition: all 0.2s ease;
 }
-
 .file-upload-content {
-  display: none;
-  text-align: center;
+    display: none;
+    text-align: center;
 }
 #loading {
-  display: none;
+    display: none;
 }
-
 .file-upload-input {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  outline: none;
-  opacity: 0;
-  cursor: pointer;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
 }
-
 .image-upload-wrap {
     width: 60%;
     margin: 0 auto;
@@ -66,87 +61,72 @@ body {
     border: dashed 1.5px #35465d;
     background-color: #ffffff;
 }
-
 .image-dropping,
 .image-upload-wrap:hover {
     background-color: #35465d82;
     border: 1.5px dashed #ffffff;
 }
-
 .image-title-wrap {
-  padding: 0 15px 15px 15px;
-  color: #222;
+    padding: 0 15px 15px 15px;
+    color: #222;
 }
-
 .drag-text {
-  text-align: center;
+    text-align: center;
 }
-
 .drag-text h3 {
-  font-weight: 500;
-  text-transform: uppercase;
+    font-weight: 500;
+    text-transform: uppercase;
 }
-
 .file-upload-image {
-  max-height: 60%;
-  max-width: 60%;
-  margin: auto;
-  padding: 10px;
+    max-height: 60%;
+    max-width: 60%;
+    margin: auto;
+    padding: 10px;
 }
-
 .try-again-btn {
-  border-radius: 40px;
-  border: solid 1.5px #35465d;
-  background-color: #35465d;
+    border-radius: 40px;
+    border: solid 1.5px #35465d;
+    background-color: #35465d;
 }
-
 .try-again-text {
-  display: block;
-  font-size: 1.5rem;
-  text-align: center;
-  color: #ffffff;
-  padding: 4px 15px;
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 4px 15px;
 }
-
 .remove-image:hover {
-  background: #c13b2a;
-  color: #ffffff;
-  transition: all .2s ease;
-  cursor: pointer;
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
 }
-
 .remove-image:active {
-  border: 0;
-  transition: all .2s ease;
+    border: 0;
+    transition: all 0.2s ease;
 }
-
 .navbar-light .navbar-brand {
-  line-height: 1.68;
-  text-align: left;
-  color: #35465d; 
+    line-height: 1.68;
+    text-align: left;
+    color: #35465d;
 }
-
 .navbar-light .navbar-toggler {
     border-color: #ffffff;
 }
-
 .section {
     margin-top: 50px;
 }
-
 .title {
-  line-height: 1.67;
-  text-align: center;
-  color: #35465d;
+    line-height: 1.67;
+    text-align: center;
+    color: #35465d;
 }
-
 .subtitle {
-  line-height: 1.53;
-  text-align: center;
-  color: #35465d;
-}
-
-/* On screens that are 600px or less, set the background color to olive */
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+} /* On screens that are 600px or less, set the background
+color to olive */
 @media screen and (max-width: 600px) {
     html {
         font-size: 10px;
@@ -166,137 +146,135 @@ body {
     color: #35465d;
     margin: 0 auto;
 }
-
 .footer {
     background-color: initial;
     color: initial;
 }
-
 .bar-container {
-  height: 2.7rem;
+    height: 2.7rem;
 }
 .RM-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 204, 84, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(117, 204, 84, 0.2);
 }
 .RM-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 204, 84, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(117, 204, 84, 1);
 }
 .Jin-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 204, 84, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(117, 204, 84, 0.2);
 }
 .Jin-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 204, 84, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(117, 204, 84, 1);
 }
 .Sugar-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(27, 175, 234, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(27, 175, 234, 0.2);
 }
 .Sugar-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(27, 175, 234, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(27, 175, 234, 1);
 }
 .J-HOPE-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(251, 176, 59, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(251, 176, 59, 0.2);
 }
 .J-HOPE-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(251, 176, 59, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(251, 176, 59, 1);
 }
 .V-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(195, 140, 102, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(195, 140, 102, 0.2);
 }
 .V-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(195, 140, 102, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(195, 140, 102, 1);
 }
 .JungKook-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(49, 132, 155, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(49, 132, 155, 0.2);
 }
 .JungKook-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(49, 132, 155, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(49, 132, 155, 1);
 }
 .Jimin-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(235, 166, 190, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(235, 166, 190, 0.2);
 }
 .Jimin-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(235, 166, 190, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(235, 166, 190, 1);
 }
 .percent-text {
-  font-size: 1rem;
-  color: #ffffff;
+    font-size: 1rem;
+    color: #ffffff;
 }
 .animal-label {
     width: 20%;
@@ -310,8 +288,6 @@ body {
 .result-message {
     font-size: 2rem;
 }
-
-
 .animal-explain {
     font-size: 1.5rem;
 }
